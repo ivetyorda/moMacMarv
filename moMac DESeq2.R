@@ -173,12 +173,12 @@ rowData(dds)
 
 ddssubset <- subset(dds, baseMean>0)
 ddssubset2 <- subset(ddssubset, WaldPvalue_cell_type_mock_vs_lps<0.05)
-ddssubset3 <- subset(ddssubset, WaldPvalue_cell_type_marv_vs_lps<0.05)
+ddssubset3 <- subset(ddssubset2, WaldPvalue_cell_type_marv_vs_lps<0.05)
 
 rowData(ddssubset3)
 
-rownames(ddssubset2) <- TRUE
-colnames(ddssubset2) <- TRUE
+rownames(ddssubset3) <- TRUE
+colnames(ddssubset3) <- TRUE
 pheatmap(assay(ddssubset3), scale="row", cluster_cols=FALSE, color=colorRampPalette(c("turquoise4", "white", "firebrick"))(50))
 
 
