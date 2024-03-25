@@ -6,7 +6,7 @@ Ivet A. Yordanova<sup>1</sup>, Angelika Lander<sup>1</sup>, Annette Wahlbrink<su
 
 <sup>2</sup> Viral Special Pathogens Branch, Centers for Disease Control and Prevention, Atlanta, GA 30329, USA
 
-<sup>3<sup> Stanford Institute for Stem Cell Biology & Regenerative Medicine, Stanford University, Stanford, CA 94305 USA
+<sup>3</sup> Stanford Institute for Stem Cell Biology & Regenerative Medicine, Stanford University, Stanford, CA 94305 USA
 
 <sup>*</sup> Corresponding author
 
